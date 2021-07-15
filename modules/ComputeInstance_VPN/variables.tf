@@ -10,6 +10,11 @@ variable "machine_type" {
   default = "e2-standard-2"
 }
 
+variable "size" {
+  type = string
+  description = "Define the size of your boot disk"
+  default = "200GB"
+}
 variable "image" {
   type = string
   description = "Boot Disk image ID to create the server"
