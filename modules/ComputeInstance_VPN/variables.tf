@@ -1,7 +1,7 @@
 variable "name" {
   type = string
   description = "Name of Compute Instance."
-  default = "openvpnserver"
+  default = "vpn-server"
 }
 
 variable "machine_type" {
@@ -13,7 +13,7 @@ variable "machine_type" {
 variable "size" {
   type = string
   description = "Define the size of your boot disk"
-  default = "200GB"
+  default = "200"
 }
 variable "image" {
   type = string

@@ -1,4 +1,4 @@
-resource "google_compute_instance" "vpnserver" {
+resource "google_compute_instance" "vpn-server" {
   name = var.name
   machine_type = var.machine_type
     boot_disk {

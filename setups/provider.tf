@@ -1,6 +1,6 @@
 provider "google" {
     credentials = "${file("cred.json")}"
-    project = "automatedopenvpn"
-    region = "us-east1"
-    zone = "us-east1-b"
+    project = var.project_id
+    region = var.region
+    zone = var.zone
 }
