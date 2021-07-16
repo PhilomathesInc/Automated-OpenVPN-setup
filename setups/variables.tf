@@ -12,6 +12,6 @@ variable "region" {
 
 variable "zone" {
   type = string
-  description = "Input zone date here. [<region>-<zone>]"
+  description = "Input zone here. [<region>-<zone>]"
   default = "us-east-b"
 }

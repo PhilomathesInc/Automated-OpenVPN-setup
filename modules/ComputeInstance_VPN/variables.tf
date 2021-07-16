@@ -12,17 +12,11 @@ variable "machine_type" {
 
 variable "size" {
   type = string
-  description = "Define the size of your boot disk"
+  description = "Define the size of your boot disk in GB"
   default = "200"
 }
 variable "image" {
   type = string
   description = "Boot Disk image ID to create the server"
   default = "ubuntu-os-cloud/ubuntu-2004-lts"
-}
-
-variable "network" {
-  type = string
-  description = "Type of network"
-  default = "default"
 }
