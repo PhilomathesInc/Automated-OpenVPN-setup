@@ -10,17 +10,6 @@ variable "protocol" {
   default = "udp"
 }
 
-# variable "ports" {
-#   type = string
-#   description= "Mention ports."
-#   default = "1194"
-# }
-
-# variable "source_tags" {
-#   type = string
-#   description = "Keep this the same as compute instance name"
-#   default = "vpn-server"
-# }
 
 variable "vpc-name" {
   type = string
