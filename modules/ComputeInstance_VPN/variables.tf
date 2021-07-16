@@ -20,3 +20,9 @@ variable "image" {
   description = "Boot Disk image ID to create the server"
   default = "ubuntu-os-cloud/ubuntu-2004-lts"
 }
+
+variable "network" {
+  type = string
+  description = "Type of network"
+  default = "default"
+}
